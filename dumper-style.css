@@ -1,0 +1,46 @@
+body {background-color:#222;color:#eee;font-size:14px;line-height:1.45rem;font-family:monospace}
+
+.dumper-string a {color:#F7E4B7;text-decoration:none}
+.dumper-string a:hover {color:#F7E4B7;text-decoration:underline}
+
+p {margin:0;line-height:1.45rem}
+
+.dumper-type {color:coral}
+.dumper-sub {background-color:rgba(50,50,50,0.15)}
+.dumper-string, .dumper-array-key-string  {color:#F7E4B7}
+.dumper-number {color:#72BFBB}
+.dumper-null {font-style:italic}
+.dumper-important-type {color:#b9d071;font-weight:bold}
+.dumper-count {color:#eee}
+
+.dumper-obj-key {color:#fff}
+
+.dumper-resource {color:#9addcf}
+.dumper-true {color:#aee2a7}
+.dumper-null, .dumper-false {color:#d58183}
+
+.dumper-array-key-int:before {content:'['}
+.dumper-array-key-int:after {content:']'}
+.dumper-array-key-int:before, .dumper-array-key-int:after {color:coral}
+
+.dumper-array-key-string {}
+.dumper-equal, .dumper-function {color:#9addcf}
+
+.dumper-sub.dumper-show > .dumper-array-key-string, .dumper-sub.dumper-show > .dumper-obj-key {}
+.dumper-sub.dumper-show {background:#444;border-top:1px solid #AAA;border-bottom:1px solid #AAA;padding:5px 0}
+
+.dumper-recursive {font-style:italic;color:#a28cd9;text-decoration:none}
+
+.dumper-sub-trigger:hover {cursor:pointer;text-decoration:none}
+.dumper-sub-trigger.inactive {text-decoration:underline}
+
+.dumper-string-space {color:#eee}
+.dumper-string-space:before {content:'['}
+.dumper-string-space:after {content:']'}
+.dumper-string-space:before, .dumper-string-space:after {color:coral}
+
+.dumper-params {color:#d68684;font-style:italic}
+
+.dumper-trace-path {color:#aaa}
+.dumper-trace-file {color:#333;display:inline-block;padding:3px;background:#aaa;border-radius:3px}
+.dumper-trace-line {color:coral}
