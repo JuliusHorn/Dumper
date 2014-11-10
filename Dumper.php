@@ -479,7 +479,7 @@ class Dumper
             echo '<span class="">' . $m['class'] . '</span>';
             echo '<span class="dumper-equal">::</span>';
             echo '<span class="dumper-function">' . $m['name'] . '</span>(';
-                $this->printParams($m['options']['params']);
+            $this->printParams($m['options']['params']);
             echo ')';
             echo '</p>';
         }
@@ -539,7 +539,7 @@ class Dumper
     private function printArray(&$array, $depth, $parentObjs)
     {
         //rekusrion
-        if (isset($array[$this->arrayHash])) {
+        if (isset($array[$this->arrayHash]) || $array[count($array) - 1] === $this->arrayHash) {
             echo '<span class="dumper-recursive">' . self::STRING_RECURSIVE . ' (array)</span><br />';
         } else {
             $inactive = '';
@@ -556,10 +556,22 @@ class Dumper
             $printKey = null;
             $keyClass = null;
 
-            $array[$this->arrayHash] = true;
+            $assoc = false;
+            if (isset($array[count($array)])) {
+                //assoc
+                $assoc                   = true;
+                $array[$this->arrayHash] = true;
+            } else {
+                //sequential
+                $array[count($array)] = $this->arrayHash;
+            }
+
             foreach ($array as $key => &$val) {
-                if ($key == $this->arrayHash) {
+                if (!$assoc && $val == $this->arrayHash) {
                     unset($array[$this->arrayHash]);
+                    break;
+                } elseif ($assoc && $key == $this->arrayHash) {
+                    unset($array[$key]);
                     break;
                 } else {
                     $this->printSpace($depth);
