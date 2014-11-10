@@ -121,11 +121,47 @@ class Dumper
             $file = pathinfo($bt[2]['file']);
             $line = $bt[2]['line'];
 
-            echo '<span>dumped: </span>';
+            echo '<div id="dumper-trace-stack" class="dumper-trace-stack">';
+
+            echo '<p class="dumper-trace-header">';
+            echo '<button id="dumper-spoiler" style="float:right">show excerpt</button>';
+            echo '<span>Trace: </span>';
             echo '<span class="dumper-trace-path">' . $file['dirname'] . '/</span>';
             echo '<span class="dumper-trace-file">' . $file['basename'] . '</span>';
             echo ' <span class="dumper-trace-line">(line ' . $line . ')</span>';
-            echo '<br />';
+            echo '</p>';
+
+            $range = 2;
+
+            $begin   = $line - 1 - $range;
+            if ($begin < 0) {
+                $begin = 0;
+            }
+
+            echo '<div class="dumper-trace-codeblock">';
+            $content = explode("\n", file_get_contents($bt[2]['file']));
+
+            for ($i = $begin; $i < $line + $range; $i++) {
+                if (isset($content[$i])) {
+                    $class = '';
+
+                    if ($i == $line - 1) {
+                        $class = ' dumper-trace-highlight';
+                    }
+
+                    echo '<span class="dumper-trace-sub-line' . $class. '">';
+                    echo $i + 1;
+                    echo '</span>';
+
+                    echo '<span class="dumper-trace-code' . $class . '">';
+                    echo str_replace(' ', self::CHAR_SPACE, $this->quote($content[$i]));
+                    echo '</span><br />';
+                }
+            }
+            echo '</div>';
+            echo '</div>';
+
+
         }
     }
 

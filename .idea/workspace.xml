@@ -23,10 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dumper.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Dumper.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dumper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="36" selection-start="619" selection-end="625" vertical-scroll-proportion="-3.1445782" vertical-offset="207" max-vertical-offset="11934">
+            <state line="50" column="34" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.48591548" vertical-offset="486" max-vertical-offset="12582">
+              <folding>
+                <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+                <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dumper-script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dumper-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -35,16 +47,16 @@
       <file leaf-file-name="dumper-style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dumper-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+            <state line="54" column="62" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1134">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="24" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-0.115613826" vertical-offset="1717" max-vertical-offset="2556">
+            <state line="107" column="5" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-9.740741" vertical-offset="1663" max-vertical-offset="2502">
               <folding />
             </state>
           </provider>
@@ -62,11 +74,11 @@
       <list>
         <option value="$PROJECT_DIR$/dumper_style.css" />
         <option value="$PROJECT_DIR$/jquery.js" />
-        <option value="$PROJECT_DIR$/dumper-script.js" />
         <option value="$PROJECT_DIR$/TestObj.php" />
+        <option value="$PROJECT_DIR$/dumper-script.js" />
         <option value="$PROJECT_DIR$/dumper-style.css" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/Dumper.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -152,6 +164,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9e130d1e-5a13-44d8-877c-58894f6bba5b" name="Default" comment="" />
@@ -169,7 +199,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28732747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13111669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -177,11 +207,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -201,6 +231,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dumper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="619" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="11934">
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumper-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="24" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dumper-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="64" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="864" />
@@ -216,7 +270,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="269" column="43" selection-start="6251" selection-end="6251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9594">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -240,7 +297,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="301" column="56" selection-start="7705" selection-end="7705" vertical-scroll-proportion="0.0" vertical-offset="5022" max-vertical-offset="7308">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -269,7 +329,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="285" column="0" selection-start="7218" selection-end="7218" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="7308">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -298,7 +361,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="285" column="0" selection-start="7218" selection-end="7218" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="7308">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -327,7 +393,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="320" column="13" selection-start="8320" selection-end="8320" vertical-scroll-proportion="0.0" vertical-offset="4752" max-vertical-offset="7308">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +425,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="319" column="44" selection-start="8260" selection-end="8260" vertical-scroll-proportion="0.0" vertical-offset="5238" max-vertical-offset="7308">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +457,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="0" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="5796">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -409,7 +484,10 @@
     <entry file="file://$PROJECT_DIR$/Dumper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="8" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="882">
-          <folding />
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,20 +508,6 @@
         <state line="541" column="9" selection-start="14816" selection-end="14816" vertical-scroll-proportion="0.71596247" vertical-offset="9128" max-vertical-offset="18360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dumper-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="242" selection-end="242" vertical-scroll-proportion="0.14334472" vertical-offset="0" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dumper-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Reflection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="950" column="20" selection-start="27184" selection-end="27184" vertical-scroll-proportion="0.34389672" vertical-offset="16807" max-vertical-offset="31248">
@@ -451,17 +515,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dumper.php">
+    <entry file="file://$PROJECT_DIR$/dumper-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="619" selection-end="625" vertical-scroll-proportion="-3.1445782" vertical-offset="207" max-vertical-offset="11934">
+        <state line="25" column="36" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumper-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="62" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1134">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="24" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-0.115613826" vertical-offset="1717" max-vertical-offset="2556">
+        <state line="107" column="5" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-9.740741" vertical-offset="1663" max-vertical-offset="2502">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dumper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="34" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.48591548" vertical-offset="486" max-vertical-offset="12582">
+          <folding>
+            <marker date="1415636815000" expanded="true" signature="2776:2787" placeholder="..." />
+            <marker date="1415636815000" expanded="true" signature="3884:4009" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

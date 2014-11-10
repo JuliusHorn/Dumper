@@ -44,3 +44,15 @@ p {margin:0;line-height:1.45rem}
 .dumper-trace-path {color:#aaa}
 .dumper-trace-file {color:#333;display:inline-block;padding:3px;background:#aaa;border-radius:3px}
 .dumper-trace-line {color:coral}
+
+.dumper-trace-stack {margin-bottom:20px;width:980px;background:#444;border-radius:3px;opacity:0.8;border:1px solid #666}
+.dumper-trace-header {background-color:#333;padding:10px}
+.dumper-trace-sub-line {color:#aaa;text-align:right;background:#555;width:5%}
+.dumper-trace-code {width:95%}
+.dumper-trace-sub-line, .dumper-trace-code {display:inline-block;padding:3px 5px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+.dumper-trace-highlight {color:coral;background:#333}
+.dumper-trace-codeblock {display:none}
+.dumper-trace-header button {border:1px solid #ccc;background:linear-gradient(#f5f5f5 0%, #ccc 100%);padding:5px;border-radius:3px;font-size:13px}
+.dumper-trace-header button:hover {cursor:pointer;border:1px solid #eee}
+
+.dumper-reference {color:coral}

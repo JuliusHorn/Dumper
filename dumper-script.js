@@ -45,3 +45,7 @@ $(document).click(function($e) {
 $('.dumper-recursive').click(function($e) {
     triggerContext($($($e.target).attr('href')));
 });
+
+$('#dumper-spoiler').click(function($e) {
+    $('.dumper-trace-codeblock').stop().toggle(200);
+})

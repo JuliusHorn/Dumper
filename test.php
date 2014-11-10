@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__ . '/Dumper.php';
 use Dumper\Dumper;
 
 class TestClass extends TestClass2
@@ -45,7 +45,6 @@ ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 
 
-require __DIR__ . '/Dumper.php';
 
 $temp = new stdClass();
 $temp->hallo = 'test';
@@ -128,9 +127,7 @@ $data = array(
  * ##########################################################################
  * ##########################################################################
  */
-Dumper::dumpReflection($data, true, true);
-die();
-
+Dumper::dumpReflection(Dumper::getInstance(), true, true);
 
 
 
