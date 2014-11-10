@@ -127,7 +127,7 @@ $data = array(
  * ##########################################################################
  * ##########################################################################
  */
-Dumper::dumpReflection(Dumper::getInstance(), true, true);
+Dumper::dumpReflection($data, true, true);
 
 
 

@@ -78,7 +78,7 @@ class Dumper
      * @param $hidden
      * @param bool $detailed
      */
-    public static function dumpReflection(&$data, $hidden, $detailed = true)
+    public static function dumpReflection(&$data, $hidden = false, $detailed = true)
     {
         self::getInstance()->dumpExec($data, $hidden, $detailed, true);
     }
