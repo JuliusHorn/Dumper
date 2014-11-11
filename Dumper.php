@@ -539,7 +539,7 @@ class Dumper
     private function printArray(&$array, $depth, $parentObjs)
     {
         //rekusrion
-        if (isset($array[$this->arrayHash]) || $array[count($array) - 1] === $this->arrayHash) {
+        if (isset($array[$this->arrayHash]) || (count($array) >= 1 && isset($array[count($array) - 1]) && $array[count($array) - 1] === $this->arrayHash)) {
             echo '<span class="dumper-recursive">' . self::STRING_RECURSIVE . ' (array)</span><br />';
         } else {
             $inactive = '';
