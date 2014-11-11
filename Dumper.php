@@ -681,7 +681,7 @@ class Dumper
     {
         $result = null;
 
-        if (is_callable($var)) {
+        if (is_callable($var) && !is_string($var)) {
             $result = self::TYPE_FUNCTION;
         } elseif (is_object($var)) {
             $result = self::TYPE_OBJECT;
