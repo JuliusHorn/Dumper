@@ -1,7 +1,5 @@
 <?php
 
-//@todo show if variable is a reference (dont know how i can check this atm)
-
 namespace Dumper;
 
 /**
@@ -556,21 +554,19 @@ class Dumper
             $printKey = null;
             $keyClass = null;
 
-            $assoc = false;
-            if (isset($array[count($array)])) {
-                //assoc
-                $assoc                   = true;
+            $sequential = $this->isSequentialArray($array);
+
+            if (!$sequential) {
                 $array[$this->arrayHash] = true;
             } else {
-                //sequential
-                $array[count($array)] = $this->arrayHash;
+                $array[] = $this->arrayHash;
             }
 
             foreach ($array as $key => &$val) {
-                if (!$assoc && $val == $this->arrayHash) {
+                if ($sequential && $val == $this->arrayHash) {
                     unset($array[$this->arrayHash]);
                     break;
-                } elseif ($assoc && $key == $this->arrayHash) {
+                } elseif (!$sequential && $key == $this->arrayHash) {
                     unset($array[$key]);
                     break;
                 } else {
@@ -593,6 +589,29 @@ class Dumper
 
             echo  $this->printSpace($depth - 1) . '</div>';
         }
+    }
+
+    /**
+     * @param array $array
+     * @return bool
+     */
+    private function isSequentialArray(&$array)
+    {
+        if (empty($array)) {
+            return false;
+        }
+
+        $i   = 0;
+        $seq = true;
+
+        foreach ($array as $key => &$val) {
+            if (!is_numeric($key) || $i++ !== $key) {
+                $seq = false;
+                break;
+            }
+        }
+
+        return $seq;
     }
 
     /**

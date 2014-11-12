@@ -2,6 +2,7 @@
 require __DIR__ . '/Dumper.php';
 use Dumper\Dumper;
 
+
 class TestClass extends TestClass2
 {
     private    $test  = 'hallo';
@@ -105,7 +106,16 @@ $data = array(
         ),
         'awfawfa' => 'hallo2',
         'awfa' => $temp
-    )
+    ),
+    'arrawfayTest' => $temp,
+    'halffaawflo'  => $test,
+    'arrafafayTest' => $temp,
+    'halfaayTest' => $temp,
+    'hafafarayTest' => $temp,
+    'halafayTest' => $temp,
+    'hallffo'  => $test,
+    'arrfaaaayTest' => $temp,
+    'halafflo'  => $test,
 );
 
 
