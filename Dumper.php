@@ -90,6 +90,7 @@ class Dumper
     public function dumpExec(&$data, $hidden = false, $detailed = true, $reflection = false)
     {
         //ob_start();
+        $time = microtime(true);
 
         $this->detailed   = $detailed;
         $this->hidden     = $hidden;
@@ -103,6 +104,10 @@ class Dumper
         if ($hidden) {
             $this->printHidden();
         }
+
+        echo '<span class="dumper-dump-info">';
+        echo 'dumped in ' . (int) ((microtime(true) - $time) * 1000) . ' ms';
+        echo '</span>';
 
         //$view = ob_get_clean();
         //echo $view;
