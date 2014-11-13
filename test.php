@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/Dumper.php';
+require __DIR__ . '/src/Dumper/Dumper.php';
 use Dumper\Dumper;
 
 

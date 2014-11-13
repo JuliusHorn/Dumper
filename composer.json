@@ -1,0 +1,27 @@
+{
+    "name": "JuliusHorn/Dumper",
+    "description": "extended and well formated var_dump for PHP",
+    "authors": [
+        {
+            "name": "JuliusHorn",
+            "email": "juliusjuliushornhorn@gmail.com"
+        }
+    ],
+    "type": "library",
+    "keywords": [
+        "dump",
+        "var_dump",
+        "php",
+        "debug"
+    ],
+    "homepage": "https://github.com/JuliusHorn/Dumper",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dumper\\": "src/"
+        }
+    }
+}
